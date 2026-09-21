@@ -1,0 +1,53 @@
+# Зависимости
+node_modules/
+.pnp
+.pnp.js
+
+# Результат сборки (Vite)
+dist/
+dist-ssr/
+*.local
+
+# Кэш сборки и инструментов (TypeScript build info, Vite cache)
+*.tsbuildinfo
+.vite/
+
+# Логи сборки и пакетных менеджеров
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Переменные окружения и секреты
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Архивы и резервные копии проекта
+*.7z
+*.rar
+*.zip
+*.tar.gz
+
+# Настройки IDE и редакторов
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Служебные файлы ОС
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
